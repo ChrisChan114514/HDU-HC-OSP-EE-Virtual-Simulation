@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'seg_led:u_seg_led|dri_clk'
+Slack : -141.515
+TNS   : -3233.887
+
+Type  : Slow 1200mV 125C Model Setup 'sys_clk'
+Slack : -5.500
+TNS   : -253.456
+
+Type  : Slow 1200mV 125C Model Hold 'sys_clk'
+Slack : 0.410
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'seg_led:u_seg_led|dri_clk'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'sys_clk'
+Slack : -3.000
+TNS   : -105.603
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'seg_led:u_seg_led|dri_clk'
+Slack : -1.487
+TNS   : -93.681
+
+Type  : Slow 1200mV -40C Model Setup 'seg_led:u_seg_led|dri_clk'
+Slack : -119.911
+TNS   : -2738.941
+
+Type  : Slow 1200mV -40C Model Setup 'sys_clk'
+Slack : -4.666
+TNS   : -209.939
+
+Type  : Slow 1200mV -40C Model Hold 'sys_clk'
+Slack : 0.327
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'seg_led:u_seg_led|dri_clk'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'sys_clk'
+Slack : -3.000
+TNS   : -91.665
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'seg_led:u_seg_led|dri_clk'
+Slack : -1.285
+TNS   : -80.955
+
+Type  : Fast 1200mV -40C Model Setup 'seg_led:u_seg_led|dri_clk'
+Slack : -63.578
+TNS   : -1439.042
+
+Type  : Fast 1200mV -40C Model Setup 'sys_clk'
+Slack : -2.081
+TNS   : -81.655
+
+Type  : Fast 1200mV -40C Model Hold 'sys_clk'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'seg_led:u_seg_led|dri_clk'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'sys_clk'
+Slack : -3.000
+TNS   : -75.765
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'seg_led:u_seg_led|dri_clk'
+Slack : -1.000
+TNS   : -63.000
+
+------------------------------------------------------------

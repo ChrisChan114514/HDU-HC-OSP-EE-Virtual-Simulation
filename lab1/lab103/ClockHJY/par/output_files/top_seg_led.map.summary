@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Mar 11 21:04:41 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : top_seg_led
+Top-level Entity Name : top_seg_led
+Family : Cyclone 10 LP
+Total logic elements : 4,421
+    Total combinational functions : 4,420
+    Dedicated logic registers : 132
+Total registers : 132
+Total pins : 20
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
