@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Mar 17 17:17:06 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : top_seg_led
+Top-level Entity Name : top_seg_led
+Family : Cyclone IV E
+Device : EP4CE40U19A7
+Timing Models : Final
+Total logic elements : 3,330 / 39,600 ( 8 % )
+    Total combinational functions : 3,325 / 39,600 ( 8 % )
+    Dedicated logic registers : 70 / 39,600 ( < 1 % )
+Total registers : 70
+Total pins : 26 / 329 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,161,216 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 232 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

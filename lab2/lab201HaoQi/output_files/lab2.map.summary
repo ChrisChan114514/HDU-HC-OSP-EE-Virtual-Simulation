@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Mar 24 16:51:48 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : lab2
+Top-level Entity Name : chengfaqi
+Family : Cyclone IV E
+Total logic elements : 346
+    Total combinational functions : 314
+    Dedicated logic registers : 160
+Total registers : 160
+Total pins : 33
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

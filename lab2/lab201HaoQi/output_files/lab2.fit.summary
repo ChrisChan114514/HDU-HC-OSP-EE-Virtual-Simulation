@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Mar 24 16:51:53 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : lab2
+Top-level Entity Name : chengfaqi
+Family : Cyclone IV E
+Device : EP4CE40U19A7
+Timing Models : Final
+Total logic elements : 344 / 39,600 ( < 1 % )
+    Total combinational functions : 314 / 39,600 ( < 1 % )
+    Dedicated logic registers : 160 / 39,600 ( < 1 % )
+Total registers : 160
+Total pins : 33 / 329 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 2,048 / 1,161,216 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 232 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

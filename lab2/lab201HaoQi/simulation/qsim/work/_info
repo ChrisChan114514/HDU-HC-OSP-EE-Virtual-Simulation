@@ -1,0 +1,53 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Quartus/Class/XNFZ_1/lab2/simulation/qsim
+vchengfaqi
+Z0 !s110 1742805855
+!i10b 1
+!s100 j@BXJiJYBA3h2GO70NPme0
+I6[mJ_HhenHO[D94:]TTDe2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Game/Computer Science/FPGA Doc/DigtalExperiments2/lab2/lab201HaoQi/simulation/qsim
+w1742805850
+8lab2.vo
+Flab2.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1742805855.000000
+!s107 lab2.vo|
+!s90 -work|work|lab2.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vchengfaqi_vlg_vec_tst
+R0
+!i10b 1
+!s100 ]8n9;O:K^_]cK?Yb_]Mi02
+I:Qab0<EejhJGcb`AcQB4i2
+R1
+R2
+w1742805849
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

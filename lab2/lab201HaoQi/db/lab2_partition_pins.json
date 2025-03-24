@@ -1,0 +1,157 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "result[0]",
+					"strict" : false
+				},
+				{
+					"name" : "result[1]",
+					"strict" : false
+				},
+				{
+					"name" : "result[2]",
+					"strict" : false
+				},
+				{
+					"name" : "result[3]",
+					"strict" : false
+				},
+				{
+					"name" : "result[4]",
+					"strict" : false
+				},
+				{
+					"name" : "result[5]",
+					"strict" : false
+				},
+				{
+					"name" : "result[6]",
+					"strict" : false
+				},
+				{
+					"name" : "result[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sg[7]",
+					"strict" : false
+				},
+				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sys_clk",
+					"strict" : false
+				},
+				{
+					"name" : "multi_input[0]",
+					"strict" : false
+				},
+				{
+					"name" : "multi_input[1]",
+					"strict" : false
+				},
+				{
+					"name" : "multi_input[2]",
+					"strict" : false
+				},
+				{
+					"name" : "multi_input[3]",
+					"strict" : false
+				},
+				{
+					"name" : "multi_input[4]",
+					"strict" : false
+				},
+				{
+					"name" : "multi_input[5]",
+					"strict" : false
+				},
+				{
+					"name" : "multi_input[6]",
+					"strict" : false
+				},
+				{
+					"name" : "multi_input[7]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

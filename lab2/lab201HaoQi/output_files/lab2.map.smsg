@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at chengfaqi.v(15): object "clk_1Hz" differs only in case from object "CLK_1Hz" in the same scope File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/lab2/lab201HaoQi/UserCode/chengfaqi.v Line: 15
+Info (10281): Verilog HDL Declaration information at chengfaqi.v(22): object "clk_1000Hz" differs only in case from object "CLK_1000Hz" in the same scope File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/lab2/lab201HaoQi/UserCode/chengfaqi.v Line: 22
+Warning (10268): Verilog HDL information at FrequencyDivider.v(11): always construct contains both blocking and non-blocking assignments File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/lab2/lab201HaoQi/UserCode/FrequencyDivider.v Line: 11

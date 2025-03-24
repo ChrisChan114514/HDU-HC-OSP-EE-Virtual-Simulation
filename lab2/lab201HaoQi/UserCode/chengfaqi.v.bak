@@ -1,0 +1,60 @@
+module shumaguan(
+    input sys_clk,
+
+    output [7:0] sg,
+    output [7:0] led
+  );
+
+  reg [2:0] q = 0;
+  wire [31:0] num;  // 每4bit储存一位数字,共8位十进制数字
+  wire [3:0] y;
+
+  //1Hz时钟生成
+  wire clk_1Hz;
+  FrequencyDivider #(.Prescaler(32'd24_999_999)) CLK_1Hz
+                   (.rst_n(1'b1),
+                    .clk_input(sys_clk),
+                    .clk_output(clk_1Hz));
+
+  //1000Hz时钟生成
+  wire clk_1000Hz;
+  FrequencyDivider #(.Prescaler(32'd24_999)) CLK_1000Hz
+                   (.rst_n(1'b1),
+                    .clk_input(sys_clk),
+                    .clk_output(clk_1000Hz));
+
+  //1000Hz轮动显示位数
+  always@(posedge clk_1000Hz)
+  begin
+    if(q == 3'b111)
+      q <= 3'd0;
+    else
+      q <= q + 1;
+  end
+
+  // 二选一,显示学号或者时钟
+  // xuehao xuehao_inst(.num(num));
+  cnt60 cnt60_inst(.clk(clk_1Hz), .num(num));
+
+  // 根据q选择显示哪一位数字
+  ecode ecode_inst(.cd(q), .sg(sg));
+
+  // 使用q选择num中的4bit,给到y. 小数点(led[7])
+  muxa muxa_inst(
+         .A(num[3:0]),
+         .B(num[7:4]),
+         .C(num[11:8]),
+         .D(num[15:12]),
+         .E(num[19:16]),
+         .F(num[23:20]),
+         .G(num[27:24]),
+         .H(num[31:28]),
+         .S(q),
+         .Y(y),
+         .DP(led[7])
+       );
+
+  // 根据DBC码,转换成对应数码管管脚
+  decl7s decl7s_inst(.A(y), .led7s(led[6:0]));
+
+endmodule
