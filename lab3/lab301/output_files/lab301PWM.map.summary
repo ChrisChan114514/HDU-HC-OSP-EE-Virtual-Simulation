@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Mar 24 19:06:05 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : lab301PWM
+Top-level Entity Name : lab301PWM
+Family : Cyclone IV E
+Total logic elements : 54
+    Total combinational functions : 54
+    Dedicated logic registers : 33
+Total registers : 33
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

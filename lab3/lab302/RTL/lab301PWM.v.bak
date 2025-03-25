@@ -1,0 +1,30 @@
+module pwm_generator (
+    input wire clk,          // 输入时钟信号
+    input wire rst_n,        // 复位信号，低电平有效
+    input wire [7:0] duty,   // 占空比控制信号，8位宽
+    input wire [31:0] period, // 周期控制信号，32位宽
+    output reg pwm_out       // PWM输出信号
+);
+
+    reg [31:0] counter;      // 计数器
+
+    always @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
+            counter <= 32'd0;
+            pwm_out <= 1'b0;
+        end else begin
+            if (counter < period) begin
+                counter <= counter + 1;
+            end else begin
+                counter <= 32'd0;
+            end
+
+            if (counter < (period * duty) >> 8) begin
+                pwm_out <= 1'b1;
+            end else begin
+                pwm_out <= 1'b0;
+            end
+        end
+    end
+
+endmodule

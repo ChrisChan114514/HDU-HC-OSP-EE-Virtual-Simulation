@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pwm_out",
+					"strict" : false
+				},
+				{
+					"name" : "duty[7]",
+					"strict" : false
+				},
+				{
+					"name" : "duty[6]",
+					"strict" : false
+				},
+				{
+					"name" : "duty[5]",
+					"strict" : false
+				},
+				{
+					"name" : "duty[4]",
+					"strict" : false
+				},
+				{
+					"name" : "duty[3]",
+					"strict" : false
+				},
+				{
+					"name" : "duty[2]",
+					"strict" : false
+				},
+				{
+					"name" : "duty[1]",
+					"strict" : false
+				},
+				{
+					"name" : "duty[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

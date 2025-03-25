@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Mar 24 19:06:11 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : lab301PWM
+Top-level Entity Name : lab301PWM
+Family : Cyclone IV E
+Device : EP4CE55F23A7
+Timing Models : Final
+Total logic elements : 56 / 55,856 ( < 1 % )
+    Total combinational functions : 54 / 55,856 ( < 1 % )
+    Dedicated logic registers : 33 / 55,856 ( < 1 % )
+Total registers : 33
+Total pins : 11 / 325 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 0 / 2,396,160 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 308 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
