@@ -1,0 +1,1022 @@
+Analysis & Synthesis report for top_seg_led
+Mon Mar 24 20:41:37 2025
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Removed During Synthesis
+  9. Removed Registers Triggering Further Register Optimizations
+ 10. General Register Statistics
+ 11. Inverted Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div1
+ 14. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod2
+ 15. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div0
+ 16. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod1
+ 17. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod0
+ 18. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div2
+ 19. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod3
+ 20. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div5
+ 21. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod6
+ 22. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div4
+ 23. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod5
+ 24. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div3
+ 25. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod4
+ 26. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div6
+ 27. Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod7
+ 28. Port Connectivity Checks: "seg_led:u_seg_led"
+ 29. Post-Synthesis Netlist Statistics for Top Partition
+ 30. Elapsed Time Per Partition
+ 31. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Mon Mar 24 20:41:37 2025           ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name                      ; top_seg_led                                     ;
+; Top-level Entity Name              ; top_seg_led                                     ;
+; Family                             ; Cyclone 10 LP                                   ;
+; Total logic elements               ; 3,287                                           ;
+;     Total combinational functions  ; 3,287                                           ;
+;     Dedicated logic registers      ; 101                                             ;
+; Total registers                    ; 101                                             ;
+; Total pins                         ; 18                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; 10CL006YU256C8G    ;                    ;
+; Top-level entity name                                            ; top_seg_led        ; top_seg_led        ;
+; Family name                                                      ; Cyclone 10 LP      ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.01        ;
+; Maximum used               ; 8           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.2%      ;
+;     Processor 3            ;   0.2%      ;
+;     Processor 4            ;   0.2%      ;
+;     Processor 5            ;   0.2%      ;
+;     Processor 6            ;   0.2%      ;
+;     Processors 7-8         ;   0.2%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                      ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                  ; Library ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
+; ../rtl/top_seg_led.v             ; yes             ; User Verilog HDL File        ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/top_seg_led.v              ;         ;
+; ../rtl/seg_led.v                 ; yes             ; User Verilog HDL File        ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v                  ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                 ; d:/othersoftware/quartus18/quartus/libraries/megafunctions/lpm_divide.tdf                     ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                 ; d:/othersoftware/quartus18/quartus/libraries/megafunctions/abs_divider.inc                    ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                 ; d:/othersoftware/quartus18/quartus/libraries/megafunctions/sign_div_unsign.inc                ;         ;
+; aglobal181.inc                   ; yes             ; Megafunction                 ; d:/othersoftware/quartus18/quartus/libraries/megafunctions/aglobal181.inc                     ;         ;
+; db/lpm_divide_uim.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_uim.tdf      ;         ;
+; db/sign_div_unsign_slh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_slh.tdf ;         ;
+; db/alt_u_div_57f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_57f.tdf       ;         ;
+; db/add_sub_0pc.tdf               ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/add_sub_0pc.tdf         ;         ;
+; db/add_sub_1pc.tdf               ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/add_sub_1pc.tdf         ;         ;
+; db/lpm_divide_tam.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_tam.tdf      ;         ;
+; db/sign_div_unsign_plh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_plh.tdf ;         ;
+; db/alt_u_div_v6f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf       ;         ;
+; db/lpm_divide_qim.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_qim.tdf      ;         ;
+; db/lpm_divide_8km.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_8km.tdf      ;         ;
+; db/sign_div_unsign_7nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_7nh.tdf ;         ;
+; db/alt_u_div_q9f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_q9f.tdf       ;         ;
+; db/lpm_divide_9km.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_9km.tdf      ;         ;
+; db/sign_div_unsign_8nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_8nh.tdf ;         ;
+; db/alt_u_div_r9f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_r9f.tdf       ;         ;
+; db/lpm_divide_fkm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_fkm.tdf      ;         ;
+; db/sign_div_unsign_dnh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_dnh.tdf ;         ;
+; db/alt_u_div_7af.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_7af.tdf       ;         ;
+; db/lpm_divide_ckm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_ckm.tdf      ;         ;
+; db/sign_div_unsign_anh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_anh.tdf ;         ;
+; db/alt_u_div_1af.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_1af.tdf       ;         ;
+; db/lpm_divide_dkm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_dkm.tdf      ;         ;
+; db/sign_div_unsign_bnh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_bnh.tdf ;         ;
+; db/alt_u_div_3af.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_3af.tdf       ;         ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                   ;
++---------------------------------------------+-----------------+
+; Resource                                    ; Usage           ;
++---------------------------------------------+-----------------+
+; Estimated Total logic elements              ; 3,287           ;
+;                                             ;                 ;
+; Total combinational functions               ; 3287            ;
+; Logic element usage by number of LUT inputs ;                 ;
+;     -- 4 input functions                    ; 810             ;
+;     -- 3 input functions                    ; 897             ;
+;     -- <=2 input functions                  ; 1580            ;
+;                                             ;                 ;
+; Logic elements by mode                      ;                 ;
+;     -- normal mode                          ; 2297            ;
+;     -- arithmetic mode                      ; 990             ;
+;                                             ;                 ;
+; Total registers                             ; 101             ;
+;     -- Dedicated logic registers            ; 101             ;
+;     -- I/O registers                        ; 0               ;
+;                                             ;                 ;
+; I/O pins                                    ; 18              ;
+;                                             ;                 ;
+; Embedded Multiplier 9-bit elements          ; 0               ;
+;                                             ;                 ;
+; Maximum fan-out node                        ; sys_rst_n~input ;
+; Maximum fan-out                             ; 101             ;
+; Total fan-out                               ; 9054            ;
+; Average fan-out                             ; 2.64            ;
++---------------------------------------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                        ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                            ; Entity Name         ; Library Name ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+; |top_seg_led                              ; 3287 (134)          ; 101 (32)                  ; 0           ; 0            ; 0       ; 0         ; 18   ; 0            ; |top_seg_led                                                                                                                   ; top_seg_led         ; work         ;
+;    |seg_led:u_seg_led|                    ; 3153 (65)           ; 69 (69)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led                                                                                                 ; seg_led             ; work         ;
+;       |lpm_divide:Div0|                   ; 262 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div0                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_qim:auto_generated|  ; 262 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div0|lpm_divide_qim:auto_generated                                                   ; lpm_divide_qim      ; work         ;
+;             |sign_div_unsign_plh:divider| ; 262 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div0|lpm_divide_qim:auto_generated|sign_div_unsign_plh:divider                       ; sign_div_unsign_plh ; work         ;
+;                |alt_u_div_v6f:divider|    ; 262 (262)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div0|lpm_divide_qim:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider ; alt_u_div_v6f       ; work         ;
+;       |lpm_divide:Div1|                   ; 334 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div1                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_uim:auto_generated|  ; 334 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div1|lpm_divide_uim:auto_generated                                                   ; lpm_divide_uim      ; work         ;
+;             |sign_div_unsign_slh:divider| ; 334 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div1|lpm_divide_uim:auto_generated|sign_div_unsign_slh:divider                       ; sign_div_unsign_slh ; work         ;
+;                |alt_u_div_57f:divider|    ; 334 (334)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div1|lpm_divide_uim:auto_generated|sign_div_unsign_slh:divider|alt_u_div_57f:divider ; alt_u_div_57f       ; work         ;
+;       |lpm_divide:Div2|                   ; 405 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div2                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_8km:auto_generated|  ; 405 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div2|lpm_divide_8km:auto_generated                                                   ; lpm_divide_8km      ; work         ;
+;             |sign_div_unsign_7nh:divider| ; 405 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div2|lpm_divide_8km:auto_generated|sign_div_unsign_7nh:divider                       ; sign_div_unsign_7nh ; work         ;
+;                |alt_u_div_q9f:divider|    ; 405 (405)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div2|lpm_divide_8km:auto_generated|sign_div_unsign_7nh:divider|alt_u_div_q9f:divider ; alt_u_div_q9f       ; work         ;
+;       |lpm_divide:Div3|                   ; 425 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div3                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_ckm:auto_generated|  ; 425 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div3|lpm_divide_ckm:auto_generated                                                   ; lpm_divide_ckm      ; work         ;
+;             |sign_div_unsign_anh:divider| ; 425 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div3|lpm_divide_ckm:auto_generated|sign_div_unsign_anh:divider                       ; sign_div_unsign_anh ; work         ;
+;                |alt_u_div_1af:divider|    ; 425 (425)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div3|lpm_divide_ckm:auto_generated|sign_div_unsign_anh:divider|alt_u_div_1af:divider ; alt_u_div_1af       ; work         ;
+;       |lpm_divide:Div4|                   ; 349 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div4                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_fkm:auto_generated|  ; 349 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div4|lpm_divide_fkm:auto_generated                                                   ; lpm_divide_fkm      ; work         ;
+;             |sign_div_unsign_dnh:divider| ; 349 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div4|lpm_divide_fkm:auto_generated|sign_div_unsign_dnh:divider                       ; sign_div_unsign_dnh ; work         ;
+;                |alt_u_div_7af:divider|    ; 349 (349)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div4|lpm_divide_fkm:auto_generated|sign_div_unsign_dnh:divider|alt_u_div_7af:divider ; alt_u_div_7af       ; work         ;
+;       |lpm_divide:Div5|                   ; 219 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div5                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_9km:auto_generated|  ; 219 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div5|lpm_divide_9km:auto_generated                                                   ; lpm_divide_9km      ; work         ;
+;             |sign_div_unsign_8nh:divider| ; 219 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div5|lpm_divide_9km:auto_generated|sign_div_unsign_8nh:divider                       ; sign_div_unsign_8nh ; work         ;
+;                |alt_u_div_r9f:divider|    ; 219 (219)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div5|lpm_divide_9km:auto_generated|sign_div_unsign_8nh:divider|alt_u_div_r9f:divider ; alt_u_div_r9f       ; work         ;
+;       |lpm_divide:Div6|                   ; 19 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div6                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_dkm:auto_generated|  ; 19 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div6|lpm_divide_dkm:auto_generated                                                   ; lpm_divide_dkm      ; work         ;
+;             |sign_div_unsign_bnh:divider| ; 19 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div6|lpm_divide_dkm:auto_generated|sign_div_unsign_bnh:divider                       ; sign_div_unsign_bnh ; work         ;
+;                |alt_u_div_3af:divider|    ; 19 (19)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Div6|lpm_divide_dkm:auto_generated|sign_div_unsign_bnh:divider|alt_u_div_3af:divider ; alt_u_div_3af       ; work         ;
+;       |lpm_divide:Mod0|                   ; 266 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod0                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_tam:auto_generated|  ; 266 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod0|lpm_divide_tam:auto_generated                                                   ; lpm_divide_tam      ; work         ;
+;             |sign_div_unsign_plh:divider| ; 266 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod0|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider                       ; sign_div_unsign_plh ; work         ;
+;                |alt_u_div_v6f:divider|    ; 266 (266)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod0|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider ; alt_u_div_v6f       ; work         ;
+;       |lpm_divide:Mod1|                   ; 248 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod1                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_tam:auto_generated|  ; 248 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated                                                   ; lpm_divide_tam      ; work         ;
+;             |sign_div_unsign_plh:divider| ; 248 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider                       ; sign_div_unsign_plh ; work         ;
+;                |alt_u_div_v6f:divider|    ; 248 (248)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider ; alt_u_div_v6f       ; work         ;
+;       |lpm_divide:Mod2|                   ; 201 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod2                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_tam:auto_generated|  ; 201 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated                                                   ; lpm_divide_tam      ; work         ;
+;             |sign_div_unsign_plh:divider| ; 201 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider                       ; sign_div_unsign_plh ; work         ;
+;                |alt_u_div_v6f:divider|    ; 201 (201)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider ; alt_u_div_v6f       ; work         ;
+;       |lpm_divide:Mod3|                   ; 162 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod3                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_tam:auto_generated|  ; 162 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated                                                   ; lpm_divide_tam      ; work         ;
+;             |sign_div_unsign_plh:divider| ; 162 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider                       ; sign_div_unsign_plh ; work         ;
+;                |alt_u_div_v6f:divider|    ; 162 (162)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider ; alt_u_div_v6f       ; work         ;
+;       |lpm_divide:Mod4|                   ; 108 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod4                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_tam:auto_generated|  ; 108 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod4|lpm_divide_tam:auto_generated                                                   ; lpm_divide_tam      ; work         ;
+;             |sign_div_unsign_plh:divider| ; 108 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod4|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider                       ; sign_div_unsign_plh ; work         ;
+;                |alt_u_div_v6f:divider|    ; 108 (108)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod4|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider ; alt_u_div_v6f       ; work         ;
+;       |lpm_divide:Mod5|                   ; 66 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod5                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_tam:auto_generated|  ; 66 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod5|lpm_divide_tam:auto_generated                                                   ; lpm_divide_tam      ; work         ;
+;             |sign_div_unsign_plh:divider| ; 66 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod5|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider                       ; sign_div_unsign_plh ; work         ;
+;                |alt_u_div_v6f:divider|    ; 66 (66)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod5|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider ; alt_u_div_v6f       ; work         ;
+;       |lpm_divide:Mod6|                   ; 24 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod6                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_tam:auto_generated|  ; 24 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod6|lpm_divide_tam:auto_generated                                                   ; lpm_divide_tam      ; work         ;
+;             |sign_div_unsign_plh:divider| ; 24 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod6|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider                       ; sign_div_unsign_plh ; work         ;
+;                |alt_u_div_v6f:divider|    ; 24 (24)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_seg_led|seg_led:u_seg_led|lpm_divide:Mod6|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider ; alt_u_div_v6f       ; work         ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; seg_led:u_seg_led|dot_disp            ; Stuck at VCC due to stuck port data_in ;
+; seg_led:u_seg_led|seg_led[7]          ; Stuck at VCC due to stuck port data_in ;
+; seg_led:u_seg_led|num[0,29..31]       ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 6 ;                                        ;
++---------------------------------------+----------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                     ;
++----------------------------+---------------------------+----------------------------------------+
+; Register name              ; Reason for Removal        ; Registers Removed due to This Register ;
++----------------------------+---------------------------+----------------------------------------+
+; seg_led:u_seg_led|dot_disp ; Stuck at VCC              ; seg_led:u_seg_led|seg_led[7]           ;
+;                            ; due to stuck port data_in ;                                        ;
++----------------------------+---------------------------+----------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 101   ;
+; Number of registers using Synchronous Clear  ; 13    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 101   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 6     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------+
+; Inverted Register Statistics                      ;
++-----------------------------------------+---------+
+; Inverted Register                       ; Fan out ;
++-----------------------------------------+---------+
+; seg_led:u_seg_led|seg_sel[0]            ; 1       ;
+; seg_led:u_seg_led|seg_sel[1]            ; 1       ;
+; seg_led:u_seg_led|seg_sel[2]            ; 1       ;
+; seg_led:u_seg_led|seg_sel[3]            ; 1       ;
+; seg_led:u_seg_led|seg_sel[4]            ; 1       ;
+; seg_led:u_seg_led|seg_sel[5]            ; 1       ;
+; seg_led:u_seg_led|seg_sel[6]            ; 1       ;
+; seg_led:u_seg_led|seg_sel[7]            ; 1       ;
+; seg_led:u_seg_led|seg_led[6]            ; 1       ;
+; seg_led:u_seg_led|dri_clk               ; 65      ;
+; counter[0]                              ; 43      ;
+; Total number of inverted registers = 11 ;         ;
++-----------------------------------------+---------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+; 8:1                ; 4 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; Yes        ; |top_seg_led|seg_led:u_seg_led|num_disp[3] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div1 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 7              ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_uim ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod2 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 4              ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_tam ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div0 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 4              ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_qim ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod1 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 4              ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_tam ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod0 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 4              ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_tam ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div2 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 10             ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_8km ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod3 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 4              ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_tam ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div5 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 20             ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_9km ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod6 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 4              ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_tam ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div4 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 17             ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_fkm ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod5 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 4              ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_tam ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div3 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 14             ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_ckm ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod4 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 4              ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_tam ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Div6 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 24             ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_dkm ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: seg_led:u_seg_led|lpm_divide:Mod7 ;
++------------------------+----------------+------------------------------------------+
+; Parameter Name         ; Value          ; Type                                     ;
++------------------------+----------------+------------------------------------------+
+; LPM_WIDTHN             ; 33             ; Untyped                                  ;
+; LPM_WIDTHD             ; 4              ; Untyped                                  ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                  ;
+; LPM_PIPELINE           ; 0              ; Untyped                                  ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                  ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                  ;
+; CBXI_PARAMETER         ; lpm_divide_tam ; Untyped                                  ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                  ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                           ;
++------------------------+----------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "seg_led:u_seg_led"  ;
++--------------+-------+----------+--------------+
+; Port         ; Type  ; Severity ; Details      ;
++--------------+-------+----------+--------------+
+; data[32..24] ; Input ; Info     ; Stuck at GND ;
+; data[2..0]   ; Input ; Info     ; Stuck at GND ;
+; point        ; Input ; Info     ; Stuck at GND ;
+; en           ; Input ; Info     ; Stuck at VCC ;
+; sign         ; Input ; Info     ; Stuck at GND ;
++--------------+-------+----------+--------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 18                          ;
+; cycloneiii_ff         ; 101                         ;
+;     CLR               ; 82                          ;
+;     CLR SCLR          ; 13                          ;
+;     ENA CLR           ; 6                           ;
+; cycloneiii_lcell_comb ; 3307                        ;
+;     arith             ; 990                         ;
+;         1 data inputs ; 14                          ;
+;         2 data inputs ; 132                         ;
+;         3 data inputs ; 844                         ;
+;     normal            ; 2317                        ;
+;         0 data inputs ; 161                         ;
+;         1 data inputs ; 87                          ;
+;         2 data inputs ; 1206                        ;
+;         3 data inputs ; 53                          ;
+;         4 data inputs ; 810                         ;
+;                       ;                             ;
+; Max LUT depth         ; 53.40                       ;
+; Average LUT depth     ; 39.13                       ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:09     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+    Info: Processing started: Mon Mar 24 20:41:12 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top_seg_led -c top_seg_led
+Warning (125096): Overriding device family setting Cyclone III -- part 10CL006YU256C8G belongs to device family Cyclone 10 LP
+    Info (125063): set_global_assignment -name FAMILY "Cyclone III"
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /game/computer science/fpga doc/digtalexperiments2/m60cnthjy/rtl/count.v
+    Info (12023): Found entity 1: count File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/count.v Line: 22
+Info (12021): Found 1 design units, including 1 entities, in source file /game/computer science/fpga doc/digtalexperiments2/m60cnthjy/rtl/top_seg_led.v
+    Info (12023): Found entity 1: top_seg_led File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/top_seg_led.v Line: 22
+Info (12021): Found 1 design units, including 1 entities, in source file /game/computer science/fpga doc/digtalexperiments2/m60cnthjy/rtl/seg_led.v
+    Info (12023): Found entity 1: seg_led File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 1
+Info (12127): Elaborating entity "top_seg_led" for the top level hierarchy
+Info (12128): Elaborating entity "seg_led" for hierarchy "seg_led:u_seg_led" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/top_seg_led.v Line: 123
+Warning (10230): Verilog HDL assignment warning at seg_led.v(32): truncated value with size 33 to match size of target (4) File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 32
+Warning (10230): Verilog HDL assignment warning at seg_led.v(33): truncated value with size 33 to match size of target (4) File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 33
+Warning (10230): Verilog HDL assignment warning at seg_led.v(34): truncated value with size 33 to match size of target (4) File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 34
+Warning (10230): Verilog HDL assignment warning at seg_led.v(35): truncated value with size 33 to match size of target (4) File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 35
+Warning (10230): Verilog HDL assignment warning at seg_led.v(36): truncated value with size 33 to match size of target (4) File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 36
+Warning (10230): Verilog HDL assignment warning at seg_led.v(37): truncated value with size 33 to match size of target (4) File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 37
+Warning (10230): Verilog HDL assignment warning at seg_led.v(38): truncated value with size 33 to match size of target (4) File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 38
+Warning (10230): Verilog HDL assignment warning at seg_led.v(39): truncated value with size 33 to match size of target (4) File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 39
+Info (278001): Inferred 15 megafunctions from design logic
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Div1" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 34
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Mod2" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 34
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Div0" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 33
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Mod1" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 33
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Mod0" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 32
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Div2" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 35
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Mod3" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 35
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Div5" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 38
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Mod6" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 38
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Div4" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 37
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Mod5" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 37
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Div3" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 36
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Mod4" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 36
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Div6" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 39
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "seg_led:u_seg_led|Mod7" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 39
+Info (12130): Elaborated megafunction instantiation "seg_led:u_seg_led|lpm_divide:Div1" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 34
+Info (12133): Instantiated megafunction "seg_led:u_seg_led|lpm_divide:Div1" with the following parameter: File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 34
+    Info (12134): Parameter "LPM_WIDTHN" = "33"
+    Info (12134): Parameter "LPM_WIDTHD" = "7"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_uim.tdf
+    Info (12023): Found entity 1: lpm_divide_uim File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_uim.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_slh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_slh File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_slh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_57f.tdf
+    Info (12023): Found entity 1: alt_u_div_57f File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_57f.tdf Line: 26
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_0pc.tdf
+    Info (12023): Found entity 1: add_sub_0pc File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/add_sub_0pc.tdf Line: 22
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_1pc.tdf
+    Info (12023): Found entity 1: add_sub_1pc File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/add_sub_1pc.tdf Line: 22
+Info (12130): Elaborated megafunction instantiation "seg_led:u_seg_led|lpm_divide:Mod2" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 34
+Info (12133): Instantiated megafunction "seg_led:u_seg_led|lpm_divide:Mod2" with the following parameter: File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 34
+    Info (12134): Parameter "LPM_WIDTHN" = "33"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_tam.tdf
+    Info (12023): Found entity 1: lpm_divide_tam File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_tam.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_plh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_plh File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_plh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_v6f.tdf
+    Info (12023): Found entity 1: alt_u_div_v6f File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "seg_led:u_seg_led|lpm_divide:Div0" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 33
+Info (12133): Instantiated megafunction "seg_led:u_seg_led|lpm_divide:Div0" with the following parameter: File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 33
+    Info (12134): Parameter "LPM_WIDTHN" = "33"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_qim.tdf
+    Info (12023): Found entity 1: lpm_divide_qim File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_qim.tdf Line: 24
+Info (12130): Elaborated megafunction instantiation "seg_led:u_seg_led|lpm_divide:Mod0" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 32
+Info (12133): Instantiated megafunction "seg_led:u_seg_led|lpm_divide:Mod0" with the following parameter: File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 32
+    Info (12134): Parameter "LPM_WIDTHN" = "33"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "seg_led:u_seg_led|lpm_divide:Div2" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 35
+Info (12133): Instantiated megafunction "seg_led:u_seg_led|lpm_divide:Div2" with the following parameter: File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 35
+    Info (12134): Parameter "LPM_WIDTHN" = "33"
+    Info (12134): Parameter "LPM_WIDTHD" = "10"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_8km.tdf
+    Info (12023): Found entity 1: lpm_divide_8km File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_8km.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_7nh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_7nh File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_7nh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_q9f.tdf
+    Info (12023): Found entity 1: alt_u_div_q9f File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_q9f.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "seg_led:u_seg_led|lpm_divide:Div5" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 38
+Info (12133): Instantiated megafunction "seg_led:u_seg_led|lpm_divide:Div5" with the following parameter: File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 38
+    Info (12134): Parameter "LPM_WIDTHN" = "33"
+    Info (12134): Parameter "LPM_WIDTHD" = "20"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_9km.tdf
+    Info (12023): Found entity 1: lpm_divide_9km File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_9km.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_8nh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_8nh File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_8nh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_r9f.tdf
+    Info (12023): Found entity 1: alt_u_div_r9f File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_r9f.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "seg_led:u_seg_led|lpm_divide:Div4" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 37
+Info (12133): Instantiated megafunction "seg_led:u_seg_led|lpm_divide:Div4" with the following parameter: File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 37
+    Info (12134): Parameter "LPM_WIDTHN" = "33"
+    Info (12134): Parameter "LPM_WIDTHD" = "17"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_fkm.tdf
+    Info (12023): Found entity 1: lpm_divide_fkm File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_fkm.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_dnh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_dnh File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_dnh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_7af.tdf
+    Info (12023): Found entity 1: alt_u_div_7af File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_7af.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "seg_led:u_seg_led|lpm_divide:Div3" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 36
+Info (12133): Instantiated megafunction "seg_led:u_seg_led|lpm_divide:Div3" with the following parameter: File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 36
+    Info (12134): Parameter "LPM_WIDTHN" = "33"
+    Info (12134): Parameter "LPM_WIDTHD" = "14"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ckm.tdf
+    Info (12023): Found entity 1: lpm_divide_ckm File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_ckm.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_anh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_anh File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_anh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_1af.tdf
+    Info (12023): Found entity 1: alt_u_div_1af File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_1af.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "seg_led:u_seg_led|lpm_divide:Div6" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 39
+Info (12133): Instantiated megafunction "seg_led:u_seg_led|lpm_divide:Div6" with the following parameter: File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 39
+    Info (12134): Parameter "LPM_WIDTHN" = "33"
+    Info (12134): Parameter "LPM_WIDTHD" = "24"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_dkm.tdf
+    Info (12023): Found entity 1: lpm_divide_dkm File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/lpm_divide_dkm.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_bnh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_bnh File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/sign_div_unsign_bnh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_3af.tdf
+    Info (12023): Found entity 1: alt_u_div_3af File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_3af.tdf Line: 26
+Info (13000): Registers with preset signals will power-up high File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/seg_led.v Line: 100
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "seg_led[7]" is stuck at VCC File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/rtl/top_seg_led.v Line: 30
+Info (286030): Timing-Driven Synthesis is running
+Info (17016): Found the following redundant logic cells in design
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div5|lpm_divide_9km:auto_generated|sign_div_unsign_8nh:divider|alt_u_div_r9f:divider|add_sub_28_result_int[5]~32" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_r9f.tdf Line: 131
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div5|lpm_divide_9km:auto_generated|sign_div_unsign_8nh:divider|alt_u_div_r9f:divider|add_sub_28_result_int[4]~34" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_r9f.tdf Line: 131
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div5|lpm_divide_9km:auto_generated|sign_div_unsign_8nh:divider|alt_u_div_r9f:divider|add_sub_28_result_int[3]~36" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_r9f.tdf Line: 131
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div5|lpm_divide_9km:auto_generated|sign_div_unsign_8nh:divider|alt_u_div_r9f:divider|add_sub_28_result_int[2]~38" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_r9f.tdf Line: 131
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod6|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_32_result_int[0]~0" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 156
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod6|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_31_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 151
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div4|lpm_divide_fkm:auto_generated|sign_div_unsign_dnh:divider|alt_u_div_7af:divider|add_sub_25_result_int[4]~28" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_7af.tdf Line: 116
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div4|lpm_divide_fkm:auto_generated|sign_div_unsign_dnh:divider|alt_u_div_7af:divider|add_sub_25_result_int[3]~30" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_7af.tdf Line: 116
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div4|lpm_divide_fkm:auto_generated|sign_div_unsign_dnh:divider|alt_u_div_7af:divider|add_sub_25_result_int[2]~32" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_7af.tdf Line: 116
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div4|lpm_divide_fkm:auto_generated|sign_div_unsign_dnh:divider|alt_u_div_7af:divider|add_sub_25_result_int[1]~34" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_7af.tdf Line: 116
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod5|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_32_result_int[0]~0" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 156
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod5|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_28_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 131
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod5|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_29_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 136
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod5|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_30_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 146
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod5|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_31_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 151
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div3|lpm_divide_ckm:auto_generated|sign_div_unsign_anh:divider|alt_u_div_1af:divider|add_sub_22_result_int[3]~24" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_1af.tdf Line: 101
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div3|lpm_divide_ckm:auto_generated|sign_div_unsign_anh:divider|alt_u_div_1af:divider|add_sub_22_result_int[2]~26" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_1af.tdf Line: 101
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div3|lpm_divide_ckm:auto_generated|sign_div_unsign_anh:divider|alt_u_div_1af:divider|add_sub_22_result_int[1]~28" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_1af.tdf Line: 101
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod4|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_32_result_int[0]~0" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 156
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod4|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_25_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 116
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod4|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_26_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 121
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod4|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_27_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 126
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod4|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_28_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 131
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod4|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_29_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 136
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod4|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_30_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 146
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod4|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_31_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 151
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div0|lpm_divide_qim:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_13_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 51
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div0|lpm_divide_qim:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_14_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 56
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_32_result_int[0]~0" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 156
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_15_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 61
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_16_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 66
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_17_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 71
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_18_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 76
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_19_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 81
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_20_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 91
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_21_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 96
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_22_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 101
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_23_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 106
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_24_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 111
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_25_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 116
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_26_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 121
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_27_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 126
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_28_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 131
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_29_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 136
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_30_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 146
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod1|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_31_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 151
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Div2|lpm_divide_8km:auto_generated|sign_div_unsign_7nh:divider|alt_u_div_q9f:divider|add_sub_18_result_int[1]~18" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_q9f.tdf Line: 76
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_18_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 76
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_19_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 81
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_20_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 91
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_21_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 96
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_22_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 101
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_23_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 106
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_24_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 111
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_25_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 116
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_26_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 121
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_27_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 126
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod2|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_28_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 131
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod0|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_13_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 51
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod0|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_14_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 56
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_21_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 96
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_22_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 101
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_23_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 106
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_24_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 111
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_25_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 116
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_26_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 121
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_27_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 126
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_28_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 131
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_29_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 136
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_30_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 146
+    Info (17048): Logic cell "seg_led:u_seg_led|lpm_divide:Mod3|lpm_divide_tam:auto_generated|sign_div_unsign_plh:divider|alt_u_div_v6f:divider|add_sub_31_result_int[0]~10" File: D:/Game/Computer Science/FPGA Doc/DigtalExperiments2/M60CNTHJY/par/db/alt_u_div_v6f.tdf Line: 151
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 3316 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 16 output pins
+    Info (21061): Implemented 3298 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 12 warnings
+    Info: Peak virtual memory: 4906 megabytes
+    Info: Processing ended: Mon Mar 24 20:41:37 2025
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:19
+
+

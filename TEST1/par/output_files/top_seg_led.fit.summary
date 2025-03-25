@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Mar 24 20:41:59 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : top_seg_led
+Top-level Entity Name : top_seg_led
+Family : Cyclone 10 LP
+Device : 10CL006YU256C8G
+Timing Models : Final
+Total logic elements : 3,288 / 6,272 ( 52 % )
+    Total combinational functions : 3,287 / 6,272 ( 52 % )
+    Dedicated logic registers : 101 / 6,272 ( 2 % )
+Total registers : 101
+Total pins : 18 / 177 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
