@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Apr 21 17:54:56 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : PWM
+Top-level Entity Name : PWMplus
+Family : Cyclone IV E
+Device : EP4CE30U19A7
+Timing Models : Final
+Total logic elements : 92 / 28,848 ( < 1 % )
+    Total combinational functions : 85 / 28,848 ( < 1 % )
+    Dedicated logic registers : 65 / 28,848 ( < 1 % )
+Total registers : 65
+Total pins : 28 / 329 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

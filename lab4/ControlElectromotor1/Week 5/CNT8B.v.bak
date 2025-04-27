@@ -1,0 +1,15 @@
+module CNT8B (
+    input clk,          // 时钟信号
+    input reset,        // 复位信号（低电平有效）
+    output reg [7:0] count // 8位计数器输出
+);
+
+    // 计数器更新逻辑
+    always @(posedge clk or negedge reset) begin
+        if (~reset)           // 如果复位信号为低电平
+            count <= 8'b00000000;  // 将计数器清零
+        else
+            count <= count + 1;    // 否则计数器加1
+    end
+
+endmodule

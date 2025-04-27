@@ -1,0 +1,16 @@
+module D (
+    input clk,        // 时钟信号
+    input reset,      // 复位信号，低电平有效
+    input D,          // 输入信号 D
+    output reg Q      // 输出信号 Q
+);
+
+    // D触发器的逻辑
+    always @(posedge clk or negedge reset) begin
+        if (~reset)          // 如果复位信号为低电平
+            Q <= 1'b0;       // 将输出 Q 清零
+        else
+            Q <= D;          // 否则将输入 D 的值传递给输出 Q
+    end
+
+endmodule

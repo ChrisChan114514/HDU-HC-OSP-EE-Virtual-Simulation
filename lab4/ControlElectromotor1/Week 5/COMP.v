@@ -1,0 +1,15 @@
+module COMP (
+    input [7:0] A,    // 8位输入 A
+    input [7:0] B,    // 8位输入 B
+    output reg eq     // 输出信号，表示 A 是否等于 B
+);
+
+    // 比较两个输入是否相等
+    always @(*) begin
+        if (A < B)
+            eq = 1;  // 如果相等，输出 1
+        else
+            eq = 0;  // 如果不相等，输出 0
+    end
+
+endmodule

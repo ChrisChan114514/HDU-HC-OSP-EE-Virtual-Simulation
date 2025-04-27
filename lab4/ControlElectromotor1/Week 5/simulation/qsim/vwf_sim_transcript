@@ -1,0 +1,144 @@
+Determining the location of the ModelSim executable...
+
+Using: D:\Quartus\Software\modelsim_ase\win32aloem
+
+To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
+Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-Altera will be used.
+
+**** Generating the ModelSim Testbench ****
+
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off PWM -c PWM --vector_source="D:/Quartus/Project/virtual experiment/Week 5/Waveform.vwf" --testbench_file="D:/Quartus/Project/virtual experiment/Week 5/simulation/qsim/Waveform.vwf.vt"
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+    Info: Copyright (C) 2018  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details.
+    Info: Processing started: Mon Mar 24 19:34:48 2025
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off PWM -c PWM --vector_source="D:/Quartus/Project/virtual experiment/Week 5/Waveform.vwf" --testbench_file="D:/Quartus/Project/virtual experiment/Week 5/simulation/qsim/Waveform.vwf.vt"
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+
+Completed successfully. 
+
+Completed successfully. 
+
+**** Generating the functional simulation netlist ****
+
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/Quartus/Project/virtual experiment/Week 5/simulation/qsim/" PWM -c PWM
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+    Info: Copyright (C) 2018  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details.
+    Info: Processing started: Mon Mar 24 19:34:50 2025
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/Quartus/Project/virtual experiment/Week 5/simulation/qsim/" PWM -c PWM
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204019): Generated file PWM.vo in folder "D:/Quartus/Project/virtual experiment/Week 5/simulation/qsim//" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4639 megabytes
+    Info: Processing ended: Mon Mar 24 19:34:51 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+Completed successfully. 
+
+**** Generating the ModelSim .do script ****
+
+D:/Quartus/Project/virtual experiment/Week 5/simulation/qsim/PWM.do generated.
+
+Completed successfully. 
+
+**** Running the ModelSim simulation ****
+
+D:/Quartus/Software/modelsim_ase/win32aloem/vsim -c -do PWM.do
+
+Reading D:/Quartus/Software/modelsim_ase/tcl/vsim/pref.tcl
+
+
+# 10.5b
+
+# do PWM.do
+
+# ** Warning: (vlib-34) Library already exists at "work".
+
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:34:52 on Mar 24,2025
+# vlog -work work PWM.vo 
+# -- Compiling module PWM
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	PWM
+# End time: 19:34:52 on Mar 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:34:52 on Mar 24,2025
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module PWM_vlg_vec_tst
+# 
+# Top level modules:
+# 	PWM_vlg_vec_tst
+# End time: 19:34:52 on Mar 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.PWM_vlg_vec_tst 
+# Start time: 19:34:53 on Mar 24,2025
+# Loading work.PWM_vlg_vec_tst
+# Loading work.PWM
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#26
+
+# ** Note: $finish    : Waveform.vwf.vt(48)
+#    Time: 1 us  Iteration: 0  Instance: /PWM_vlg_vec_tst
+# End time: 19:34:55 on Mar 24,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+
+Completed successfully. 
+
+**** Converting ModelSim VCD to vector waveform ****
+
+Reading D:/Quartus/Project/virtual experiment/Week 5/Waveform.vwf...
+
+Reading D:/Quartus/Project/virtual experiment/Week 5/simulation/qsim/PWM.msim.vcd...
+
+Processing channel transitions... 
+
+Writing the resulting VWF to D:/Quartus/Project/virtual experiment/Week 5/simulation/qsim/PWM_20250324193455.sim.vwf
+
+Finished VCD to VWF conversion.
+
+Completed successfully. 
+
+All completed.

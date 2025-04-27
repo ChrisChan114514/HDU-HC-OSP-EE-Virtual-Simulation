@@ -1,0 +1,26 @@
+module PWM(
+    clk,
+    GND,
+    A,
+    PWM_motor
+);
+
+input wire clk;             // 时钟信号
+input wire GND;             // 接地信号 (未使用，但保留接口)
+input wire [7:0] A;         // 占空比控制信号 (0-255)
+output reg PWM_motor;       // PWM 输出信号
+assign GND = 1'b0; // 将GND信号连接到逻辑0
+reg [7:0] counter = 8'd0;   // 8位计数器
+
+always @(posedge clk) begin
+    // 计数器递增
+    counter <= counter + 1;
+
+    // 根据占空比控制输出
+    if (counter < A)
+        PWM_motor <= 1;
+    else
+        PWM_motor <= 0;
+end
+
+endmodule
