@@ -1,0 +1,44 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[{Linux Programmer's Manual}(2017)]{man7}
+{Linux Programmer's Manual}.
+\newblock proc(5) - process information pseudo-filesystem\allowbreak[M/OL].
+\newblock Linux, 2017.
+\newblock \url{https://man7.org/linux/man-pages/man5/proc.5.html}.
+
+\bibitem[{The Linux Kernel Documentation}(2023)]{kernel-doc}
+{The Linux Kernel Documentation}.
+\newblock /proc filesystem\allowbreak[M/OL].
+\newblock Linux Kernel Organization, 2023.
+\newblock \url{https://www.kernel.org/doc/html/latest/filesystems/proc.html}.
+
+\bibitem[{Ubuntu Documentation}(2023)]{ubuntu}
+{Ubuntu Documentation}.
+\newblock proc filesystem\allowbreak[M/OL].
+\newblock Canonical Ltd., 2023.
+\newblock \url{https://help.ubuntu.com/community/LinuxFilesystemTree/proc}.
+
+\bibitem[{IBM Developer}(2018)]{ibm}
+{IBM Developer}.
+\newblock Linux 的 /proc 文件系统内容详解\allowbreak[J/OL].
+\newblock IBM Developer China, 2018\allowbreak[2024-06-20].
+\newblock \url{https://developer.ibm.com/zh/articles/l-proc/}.
+
+\bibitem[{Linux Documentation Project}(2002)]{tldp}
+{Linux Documentation Project}.
+\newblock The /proc filesystem\allowbreak[EB/OL].
+\newblock 2002\allowbreak[2024-06-20].
+\newblock \url{https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/proc.html}.
+
+\end{thebibliography}

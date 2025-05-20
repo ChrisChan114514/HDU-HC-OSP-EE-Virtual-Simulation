@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Apr 24 10:10:43 2019
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : qsys_Nios_II_colorbar
+Top-level Entity Name : Nios_II_colorbar
+Family : Cyclone IV E
+Total logic elements : 8,302
+    Total combinational functions : 5,968
+    Dedicated logic registers : 5,262
+Total registers : 5262
+Total pins : 67
+Total virtual pins : 0
+Total memory bits : 197,376
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 1

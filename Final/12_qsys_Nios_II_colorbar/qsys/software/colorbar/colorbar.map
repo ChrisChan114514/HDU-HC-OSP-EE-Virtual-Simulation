@@ -1,0 +1,1448 @@
+Archive member included because of file (symbol)
+
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+                              obj/default/App/mculcd.o (__fixunsdfsi)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o) (__subdf3)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+                              obj/default/App/mculcd.o (__muldf3)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o) (__gedf2)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+                              obj/default/App/mculcd.o (__floatsidf)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o) (__fixdfsi)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_thenan_df.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o) (__thenan_df)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+                              obj/default/main.o (__udivsi3)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o) (__muldi3)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o) (__clzsi2)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o) (__pack_d)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o) (__unpack_d)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o) (__fpcmp_parts_d)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o) (__lshrdi3)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o) (__ashldi3)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clz.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o) (__clz_tab)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              obj/default/main.o (alt_dcache_flush_all)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp//obj/HAL/src/crt0.o (alt_main)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+                              obj/default/App/delay.o (usleep)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_epcs_flash_init)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o) (epcs_sector_erase)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o) (close)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_errno.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o) (alt_flash_dev_list)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o) (alt_avalon_spi_command)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o) (alt_find_dev)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o) (exit)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o) (errno)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o) (memcmp)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o) (memcpy)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                              D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o) (__register_exitproc)
+d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+                              d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+_atexit0            0x190             d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+lcddev              0x1c              obj/default/App/mculcd.o
+lcdgui              0x8               obj/default/main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sdram_BEFORE_EXCEPTION 0x02000000         0x00000020
+sdram            0x02000020         0x01ffffe0
+reset            0x04001000         0x00000020
+epcs_flash       0x04001020         0x000007e0
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/App/delay.o
+LOAD obj/default/App/mculcd.o
+LOAD obj/default/App/rgblcd.o
+LOAD obj/default/main.o
+LOAD d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libstdc++.a
+LOAD d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libm.a
+LOAD d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a
+START GROUP
+LOAD d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a
+LOAD d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a
+LOAD D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a
+END GROUP
+LOAD d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a
+                0x02000000                __alt_mem_sdram = 0x2000000
+                0x04001000                __alt_mem_epcs_flash = 0x4001000
+
+.entry          0x04001000        0x0
+ *(.entry)
+ .entry         0x04001000        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp//obj/HAL/src/crt0.o
+                0x04001000                __reset
+
+.exceptions     0x02000020      0x198
+                0x02000020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x02000020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x02000020        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x02000020                alt_irq_entry
+ .exceptions.entry.label
+                0x02000020        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x02000020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x02000020       0x54 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x02000074       0x10 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x02000084        0x4 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x02000088        0x4 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x0200008c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x0200008c        0x8 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x02000094        0x4 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x02000098        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x02000098        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x02000098       0x54 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x020000ec       0xcc D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x020000ec                alt_irq_handler
+                0x020001b8                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x02000020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x020001b8     0x96f8
+                0x020001b8                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x020001b8       0x48 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp//obj/HAL/src/crt0.o
+                0x020001b8                _start
+ .text          0x02000200       0x68 obj/default/App/delay.o
+                0x02000200                delay_ms
+                0x02000238                delay_us
+ .text          0x02000268     0x4dd0 obj/default/App/mculcd.o
+                0x02000268                LCD_WR_CMD
+                0x020002d8                LCD_WR_DATA
+                0x02000348                LCD_RD_DATA
+                0x020003dc                LCD_WriteReg
+                0x02000418                LCD_ReadReg
+                0x02000454                LCD_WriteRAM_Prepare
+                0x0200048c                LCD_WriteRAM
+                0x020004bc                LCD_BGR2RGB
+                0x0200052c                LCD_ReadPoint
+                0x02000678                LCD_DisplayOn
+                0x02000700                LCD_DisplayOff
+                0x02000788                LCD_SetCursor
+                0x02000a5c                LCD_Scan_Dir
+                0x02000fe0                LCD_DrawPoint
+                0x02001028                LCD_Fast_DrawPoint
+                0x020012a4                LCD_SSD_BackLightSet
+                0x02001354                LCD_Display_Dir
+                0x020016c8                LCD_Set_Window
+                0x02001a7c                MY_LCD_Init
+                0x020048f0                LCD_Clear
+                0x0200497c                LCD_Fill
+                0x02004a24                LCD_Color_Fill
+                0x02004b0c                LCD_DrawLine
+                0x02004cbc                LCD_DrawRectangle
+                0x02004d40                LCD_Draw_Circle
+                0x02004f28                LCD_Pow
+                0x02004f90                LCD_DisplayPic
+ .text          0x02005038      0x24c obj/default/App/rgblcd.o
+                0x02005038                LTDC_PanelID_Read
+                0x02005138                LTDC_Init
+ .text          0x02005284      0x1b4 obj/default/main.o
+                0x02005284                main
+ .text          0x02005438       0x84 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+                0x02005438                __fixunsdfsi
+ .text          0x020054bc      0x408 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+                0x02005810                __adddf3
+                0x02005864                __subdf3
+ .text          0x020058c4      0x2e4 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+                0x020058c4                __muldf3
+ .text          0x02005ba8       0x64 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+                0x02005ba8                __gedf2
+ .text          0x02005c0c       0xd4 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+                0x02005c0c                __floatsidf
+ .text          0x02005ce0       0xd4 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+                0x02005ce0                __fixdfsi
+ .text          0x02005db4        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_thenan_df.o)
+ .text          0x02005db4      0x130 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+                0x02005e28                __divsi3
+                0x02005e78                __modsi3
+                0x02005ed4                __udivsi3
+                0x02005edc                __umodsi3
+ .text          0x02005ee4       0x60 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+                0x02005ee4                __muldi3
+ .text          0x02005f44       0xac d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+                0x02005f44                __clzsi2
+ .text          0x02005ff0      0x224 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+                0x02005ff0                __pack_d
+ .text          0x02006214      0x104 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+                0x02006214                __unpack_d
+ .text          0x02006318       0xd0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+                0x02006318                __fpcmp_parts_d
+ .text          0x020063e8       0x44 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+                0x020063e8                __lshrdi3
+ .text          0x0200642c       0x44 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+                0x0200642c                __ashldi3
+ .text          0x02006470        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clz.o)
+ .text          0x02006470       0x44 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x02006470                alt_dcache_flush_all
+ .text          0x020064b4       0x78 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+                0x020064b4                alt_main
+ .text          0x0200652c       0x30 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x0200652c                usleep
+ .text          0x0200655c       0xc0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x02006594                alt_irq_init
+                0x020065c8                alt_sys_init
+ .text          0x0200661c      0x990 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+                0x02006654                alt_epcs_flash_init
+                0x02006a1c                alt_epcs_flash_write
+                0x02006c7c                alt_epcs_flash_get_info
+                0x02006d9c                alt_epcs_flash_erase_block
+                0x02006e10                alt_epcs_flash_write_block
+                0x02006f14                alt_epcs_flash_read
+ .text          0x02006fac      0x164 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x02006fac                altera_avalon_jtag_uart_read_fd
+                0x0200700c                altera_avalon_jtag_uart_write_fd
+                0x0200706c                altera_avalon_jtag_uart_close_fd
+                0x020070bc                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x02007110      0x3d0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x02007110                altera_avalon_jtag_uart_init
+                0x02007478                altera_avalon_jtag_uart_close
+ .text          0x020074e0       0xf4 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x020074e0                altera_avalon_jtag_uart_ioctl
+ .text          0x020075d4      0x218 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x020075d4                altera_avalon_jtag_uart_read
+ .text          0x020077ec      0x224 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x020077ec                altera_avalon_jtag_uart_write
+ .text          0x02007a10      0x624 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+                0x02007a10                epcs_read_status_register
+                0x02007adc                epcs_sector_erase
+                0x02007bd4                epcs_read_buffer
+                0x02007cc8                epcs_write_enable
+                0x02007d18                epcs_write_status_register
+                0x02007d80                epcs_write_buffer
+                0x02007e9c                epcs_read_electronic_signature
+                0x02007f04                epcs_read_device_id
+                0x02007f84                epcs_enter_4_bytes_mode
+                0x02007fdc                epcs_exit_4_bytes_mode
+ .text          0x02008034      0x140 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                0x02008034                alt_alarm_start
+ .text          0x02008174      0x154 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x02008174                alt_busy_sleep
+ .text          0x020082c8      0x118 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+                0x02008318                close
+ .text          0x020083e0       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x0200840c       0xf0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0200845c                alt_dev_llist_insert
+ .text          0x020084fc       0x5c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x020084fc                _do_ctors
+ .text          0x02008558       0x5c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x02008558                _do_dtors
+ .text          0x020085b4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x020085b4       0xb8 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                0x020085b4                alt_flash_open_dev
+                0x0200861c                alt_flash_close_dev
+ .text          0x0200866c      0x1d8 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+                0x0200866c                alt_ic_isr_register
+                0x020086bc                alt_ic_irq_enable
+                0x02008758                alt_ic_irq_disable
+                0x020087f8                alt_ic_irq_enabled
+ .text          0x02008844       0xf0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x02008844                alt_iic_isr_register
+ .text          0x02008934      0x138 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x020089f4                alt_io_redirect
+ .text          0x02008a6c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x02008a6c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x02008a6c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x02008a6c      0x270 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+                0x02008b88                open
+ .text          0x02008cdc       0x60 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x02008cdc                alt_release_fd
+ .text          0x02008d3c      0x19c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+                0x02008d3c                alt_alarm_stop
+                0x02008dd4                alt_tick
+ .text          0x02008ed8       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x02008ed8                altera_nios2_qsys_irq_init
+ .text          0x02008ef8      0x208 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+                0x02008ef8                alt_avalon_spi_command
+ .text          0x02009100        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x02009100       0x90 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x02009100                alt_find_dev
+ .text          0x02009190      0x114 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x02009190                alt_find_file
+ .text          0x020092a4       0xb4 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x020092a4                alt_get_fd
+ .text          0x02009358       0x14 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                0x02009358                atexit
+ .text          0x0200936c       0x38 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                0x0200936c                exit
+ .text          0x020093a4        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .text          0x020093a4        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .text          0x020093a4       0x7c d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                0x020093a4                memcmp
+ .text          0x02009420       0xf8 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                0x02009420                memcpy
+ .text          0x02009518       0x8c d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                0x02009518                strlen
+ .text          0x020095a4      0x130 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                0x020095a4                __register_exitproc
+ .text          0x020096d4      0x1a0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                0x020096d4                __call_exitprocs
+ .text          0x02009874       0x3c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+                0x02009874                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                0x020098b0                PROVIDE (__etext, ABSOLUTE (.))
+                0x020098b0                PROVIDE (_etext, ABSOLUTE (.))
+                0x020098b0                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x020098b0                . = ALIGN (0x4)
+                0x020098b0                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x020098b0                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x020098b0                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x020098b0                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x020098b0                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x020098b0                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x020098b0                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x020098b0                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x020098b0                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x020098b0                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x020098b0                . = ALIGN (0x4)
+
+.rodata         0x020098b0      0x154
+                0x020098b0                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x020098b0                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x020098b0       0x14 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_thenan_df.o)
+                0x020098b0                __thenan_df
+ .rodata        0x020098c4      0x100 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clz.o)
+                0x020098c4                __clz_tab
+ .rodata        0x020099c4       0x10 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+ .rodata        0x020099d4       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .rodata        0x020099f4        0xc D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+ .rodata.str1.4
+                0x02009a00        0x4 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ *(.rodata1)
+                0x02009a04                . = ALIGN (0x4)
+                0x02009a04                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x020098b0                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x02009a04     0x1710
+                0x02009a04                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x02009a04                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x02009a04        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp//obj/HAL/src/crt0.o
+ .data          0x02009a04        0x0 obj/default/App/delay.o
+ .data          0x02009a04        0x0 obj/default/App/mculcd.o
+ .data          0x02009a04        0x0 obj/default/App/rgblcd.o
+ .data          0x02009a04        0x0 obj/default/main.o
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_thenan_df.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+ .data          0x02009a04        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clz.o)
+ .data          0x02009a04        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x02009a04        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x02009a04        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+ .data          0x02009a04     0x1128 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0200ab2c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .data          0x0200ab2c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x0200ab2c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x0200ab2c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x0200ab2c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x0200ab2c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0200ab2c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+ .data          0x0200ab2c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .data          0x0200ab2c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x0200ab2c        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x0200ab2c      0x1a8 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0200ab2c                alt_dev_null
+                0x0200ab54                alt_fd_list
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x0200acd4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x0200acd4        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .data          0x0200acd4        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .data          0x0200acd4      0x400 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data          0x0200b0d4        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .data          0x0200b0d4        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .data          0x0200b0d4        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .data          0x0200b0d4        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .data          0x0200b0d4        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .data          0x0200b0d4        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .data          0x0200b0d4        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+                0x020130d4                _gp = ABSOLUTE ((. + 0x8000))
+                0x020130d4                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0200b0d4        0x8 obj/default/App/mculcd.o
+                0x0200b0d4                POINT_COLOR
+                0x0200b0d8                BACK_COLOR
+ .sdata         0x0200b0dc        0x4 obj/default/main.o
+                0x0200b0dc                ram_disp
+ .sdata         0x0200b0e0       0x14 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0200b0e0                alt_fs_list
+                0x0200b0e8                alt_dev_list
+                0x0200b0f0                alt_max_fd
+ .sdata         0x0200b0f4        0x4 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_errno.o)
+                0x0200b0f4                alt_errno
+ .sdata         0x0200b0f8        0x8 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                0x0200b0f8                alt_flash_dev_list
+ .sdata         0x0200b100        0x4 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0200b100                alt_priority_mask
+ .sdata         0x0200b104        0x8 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0200b104                alt_alarm_list
+ .sdata         0x0200b10c        0x8 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x0200b10c                _global_impure_ptr
+                0x0200b110                _impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0200b114                . = ALIGN (0x4)
+                0x0200b114                _edata = ABSOLUTE (.)
+                0x0200b114                PROVIDE (edata, ABSOLUTE (.))
+                0x0200b114                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x02009a04                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0200b114      0x2d0
+                0x0200b114                __bss_start = ABSOLUTE (.)
+                0x0200b114                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x0200b114                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0200b114        0x8 obj/default/main.o
+                0x0200b114                lcdgui
+ .sbss          0x0200b11c        0xc D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+                0x0200b11c                alt_argc
+                0x0200b120                alt_argv
+                0x0200b124                alt_envp
+ .sbss          0x0200b128        0x4 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0200b128                alt_irq_active
+ .sbss          0x0200b12c        0x8 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0200b12c                _alt_tick_rate
+                0x0200b130                _alt_nticks
+ .sbss          0x0200b134        0x4 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                0x0200b134                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x0200b138                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x0200b138                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp//obj/HAL/src/crt0.o
+ .bss           0x0200b138        0x0 obj/default/App/delay.o
+ .bss           0x0200b138        0x0 obj/default/App/mculcd.o
+ .bss           0x0200b138        0x0 obj/default/App/rgblcd.o
+ .bss           0x0200b138        0x0 obj/default/main.o
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_thenan_df.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clz.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .bss           0x0200b138        0x0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .bss           0x0200b138        0x0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x0200b138       0x1c obj/default/App/mculcd.o
+                0x0200b138                lcddev
+ COMMON         0x0200b154      0x100 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x0200b154                alt_irq
+ COMMON         0x0200b254      0x190 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                0x0200b254                _atexit0
+                0x0200b3e4                . = ALIGN (0x4)
+                0x0200b3e4                __bss_end = ABSOLUTE (.)
+
+.sdram          0x0200b3e4        0x0
+                0x0200b3e4                PROVIDE (_alt_partition_sdram_start, ABSOLUTE (.))
+ *(.sdram .sdram. sdram.*)
+                0x0200b3e4                . = ALIGN (0x4)
+                0x0200b3e4                PROVIDE (_alt_partition_sdram_end, ABSOLUTE (.))
+                0x0200b3e4                _end = ABSOLUTE (.)
+                0x0200b3e4                end = ABSOLUTE (.)
+                0x0200b3e4                __alt_stack_base = ABSOLUTE (.)
+                0x0200b3e4                PROVIDE (_alt_partition_sdram_load_addr, LOADADDR (.sdram))
+
+.epcs_flash     0x04001020        0x0
+                0x04001020                PROVIDE (_alt_partition_epcs_flash_start, ABSOLUTE (.))
+ *(.epcs_flash .epcs_flash. epcs_flash.*)
+                0x04001020                . = ALIGN (0x4)
+                0x04001020                PROVIDE (_alt_partition_epcs_flash_end, ABSOLUTE (.))
+                0x04001020                PROVIDE (_alt_partition_epcs_flash_load_addr, LOADADDR (.epcs_flash))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 obj/default/App/delay.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000000       0x24 obj/default/App/mculcd.o
+ .comment       0x00000000       0x24 obj/default/App/rgblcd.o
+ .comment       0x00000000       0x24 obj/default/main.o
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_thenan_df.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clz.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .comment       0x00000000       0x24 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .comment       0x00000000       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x838
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000020       0x20 obj/default/App/delay.o
+ .debug_aranges
+                0x00000040       0x20 obj/default/App/mculcd.o
+ .debug_aranges
+                0x00000060       0x20 obj/default/App/rgblcd.o
+ .debug_aranges
+                0x00000080       0x20 obj/default/main.o
+ .debug_aranges
+                0x000000a0       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+ .debug_aranges
+                0x000000c0       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+ .debug_aranges
+                0x000000e0       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+ .debug_aranges
+                0x00000100       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+ .debug_aranges
+                0x00000120       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+ .debug_aranges
+                0x00000140       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+ .debug_aranges
+                0x00000160       0x18 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_thenan_df.o)
+ .debug_aranges
+                0x00000178       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x00000198       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_aranges
+                0x000001b8       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x000001d8       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+ .debug_aranges
+                0x000001f8       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+ .debug_aranges
+                0x00000218       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+ .debug_aranges
+                0x00000238       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x00000258       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x00000278       0x18 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clz.o)
+ .debug_aranges
+                0x00000290       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x000002b0       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x000002d0       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_aranges
+                0x000002f0       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000310       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .debug_aranges
+                0x00000330       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x00000350       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x00000370       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x00000390       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x000003b0       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x000003d0       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+ .debug_aranges
+                0x000003f0       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x00000410       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x00000430       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000450       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x00000470       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000490       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x000004b0       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x000004d0       0x18 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x000004e8       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_aranges
+                0x00000508       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000528       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000548       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x00000568       0x30 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000598       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x000005b8       0x18 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x000005d0       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x000005f0       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000610       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000630       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x00000650       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_aranges
+                0x00000670       0x38 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x000006a8       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x000006c8       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x000006e8       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000708       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x00000728       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x00000748       0x18 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x00000760       0x18 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x00000778       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000798       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x000007b8       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x000007d8       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x000007f8       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000818       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xc0cb
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x74 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x00000074       0xcf obj/default/App/delay.o
+ .debug_info    0x00000143      0x904 obj/default/App/mculcd.o
+ .debug_info    0x00000a47      0x17a obj/default/App/rgblcd.o
+ .debug_info    0x00000bc1      0x197 obj/default/main.o
+ .debug_info    0x00000d58       0xc5 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+ .debug_info    0x00000e1d      0x588 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+ .debug_info    0x000013a5      0x519 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+ .debug_info    0x000018be      0x320 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+ .debug_info    0x00001bde      0x261 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+ .debug_info    0x00001e3f      0x30b d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+ .debug_info    0x0000214a      0x155 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_thenan_df.o)
+ .debug_info    0x0000229f      0x289 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+ .debug_info    0x00002528      0x1ea d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_info    0x00002712      0x123 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+ .debug_info    0x00002835      0x2f7 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+ .debug_info    0x00002b2c      0x265 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+ .debug_info    0x00002d91      0x226 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+ .debug_info    0x00002fb7      0x185 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+ .debug_info    0x0000313c      0x185 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+ .debug_info    0x000032c1       0xac d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clz.o)
+ .debug_info    0x0000336d       0xa3 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00003410      0x139 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x00003549       0xad D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x000035f6      0x821 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00003e17      0x8ae D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .debug_info    0x000046c5      0x58a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x00004c4f      0x3d8 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x00005027      0x2a9 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x000052d0      0x371 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x00005641      0x36c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x000059ad      0x482 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+ .debug_info    0x00005e2f      0x2e4 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x00006113       0xd5 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x000061e8      0x350 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00006538      0x4e3 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x00006a1b      0x1b9 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x00006bd4       0x8d D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x00006c61       0x8d D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x00006cee       0xa3 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00006d91      0x3ce D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_info    0x0000715f      0x364 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x000074c3      0x1f6 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x000076b9      0x4f0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x00007ba9       0x79 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00007c22      0x190 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x00007db2       0x8a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x00007e3c      0x3f0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x0000822c      0x2dd D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x00008509      0x2b1 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x000087ba       0x90 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x0000884a      0x18b D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_info    0x000089d5       0x7f D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x00008a54      0x30d D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00008d61      0x30c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x0000906d      0x339 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x000093a6      0x1e6 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_info    0x0000958c      0x993 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_info    0x00009f1f      0x938 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_info    0x0000a857       0x84 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_info    0x0000a8db      0x117 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_info    0x0000a9f2      0x10e d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_info    0x0000ab00       0xdf d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_info    0x0000abdf      0x9f9 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_info    0x0000b5d8      0xa07 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000bfdf       0xec D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x00000000     0x4386
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x14 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000014       0x78 obj/default/App/delay.o
+ .debug_abbrev  0x0000008c      0x1e5 obj/default/App/mculcd.o
+ .debug_abbrev  0x00000271       0xdd obj/default/App/rgblcd.o
+ .debug_abbrev  0x0000034e       0xb6 obj/default/main.o
+ .debug_abbrev  0x00000404       0x60 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+ .debug_abbrev  0x00000464      0x22d d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+ .debug_abbrev  0x00000691      0x240 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+ .debug_abbrev  0x000008d1      0x1a5 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+ .debug_abbrev  0x00000a76      0x19c d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+ .debug_abbrev  0x00000c12      0x1ae d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+ .debug_abbrev  0x00000dc0       0xb6 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_thenan_df.o)
+ .debug_abbrev  0x00000e76      0x112 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x00000f88       0xe0 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_abbrev  0x00001068       0xbe d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00001126      0x1b6 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+ .debug_abbrev  0x000012dc      0x15d d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+ .debug_abbrev  0x00001439      0x146 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+ .debug_abbrev  0x0000157f       0xf1 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x00001670       0xf1 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x00001761       0x5d d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clz.o)
+ .debug_abbrev  0x000017be       0x5a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00001818       0xba D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x000018d2       0x60 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_abbrev  0x00001932      0x17f D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x00001ab1      0x1c9 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .debug_abbrev  0x00001c7a      0x118 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x00001d92      0x18f D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x00001f21      0x102 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x00002023      0x19b D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x000021be      0x199 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x00002357      0x169 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+ .debug_abbrev  0x000024c0      0x162 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x00002622       0x7e D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x000026a0      0x11f D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x000027bf       0xd9 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x00002898      0x114 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x000029ac       0x79 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x00002a25       0x79 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x00002a9e       0x5a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00002af8      0x11a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_abbrev  0x00002c12      0x16a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x00002d7c      0x169 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x00002ee5      0x114 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x00002ff9       0x12 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x0000300b      0x124 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000312f       0x40 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000316f      0x148 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x000032b7       0xde D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x00003395      0x15a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x000034ef       0x42 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x00003531       0x8a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_abbrev  0x000035bb       0x12 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x000035cd       0xf0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x000036bd       0xf0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x000037ad      0x10d D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x000038ba      0x106 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x000039c0      0x1c8 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x00003b88      0x162 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x00003cea       0x37 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00003d21       0x7f d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x00003da0       0x9c d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x00003e3c       0x90 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x00003ecc      0x211 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x000040dd      0x203 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x000042e0       0xa6 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x00000000     0x43c2
+ *(.debug_line)
+ .debug_line    0x00000000       0x57 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000057       0x50 obj/default/App/delay.o
+ .debug_line    0x000000a7      0x8c2 obj/default/App/mculcd.o
+ .debug_line    0x00000969       0xcc obj/default/App/rgblcd.o
+ .debug_line    0x00000a35       0xd2 obj/default/main.o
+ .debug_line    0x00000b07       0x6e d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+ .debug_line    0x00000b75      0x131 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+ .debug_line    0x00000ca6      0x114 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+ .debug_line    0x00000dba       0x6e d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+ .debug_line    0x00000e28       0x94 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+ .debug_line    0x00000ebc       0x8d d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+ .debug_line    0x00000f49       0x51 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_thenan_df.o)
+ .debug_line    0x00000f9a       0xd3 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000106d       0x8b d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_line    0x000010f8       0x8c d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+ .debug_line    0x00001184       0xc7 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+ .debug_line    0x0000124b       0xa2 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+ .debug_line    0x000012ed       0x96 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+ .debug_line    0x00001383       0x77 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+ .debug_line    0x000013fa       0x75 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+ .debug_line    0x0000146f       0x53 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clz.o)
+ .debug_line    0x000014c2       0x61 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00001523       0xa4 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x000015c7       0xce D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x00001695      0x189 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000181e      0x2af D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .debug_line    0x00001acd      0x131 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00001bfe      0x199 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x00001d97      0x129 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x00001ec0      0x174 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00002034      0x173 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x000021a7      0x118 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+ .debug_line    0x000022bf       0xfa D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x000023b9       0xa0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x00002459      0x186 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x000025df      0x119 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x000026f8       0xd0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x000027c8       0x59 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x00002821       0x59 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x0000287a       0x51 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x000028cb       0xc5 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_line    0x00002990       0xed D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x00002a7d       0xdb D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00002b58      0x154 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x00002cac       0x6b D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x00002d17       0xae D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x00002dc5       0x50 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x00002e15      0x125 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x00002f3a       0xae D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x00002fe8      0x102 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x000030ea       0x51 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x0000313b       0xb6 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_line    0x000031f1       0xab D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000329c       0xb9 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00003355       0xd5 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x0000342a       0xd1 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x000034fb      0x16d d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_line    0x00003668      0x219 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_line    0x00003881      0x173 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_line    0x000039f4       0x5d d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_line    0x00003a51      0x18d d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_line    0x00003bde      0x13d d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_line    0x00003d1b      0x182 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_line    0x00003e9d      0x250 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_line    0x000040ed      0x264 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x00004351       0x71 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x00000000     0x110c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x48 obj/default/App/delay.o
+ .debug_frame   0x00000048      0x308 obj/default/App/mculcd.o
+ .debug_frame   0x00000350       0x48 obj/default/App/rgblcd.o
+ .debug_frame   0x00000398       0x30 obj/default/main.o
+ .debug_frame   0x000003c8       0x2c d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x000003f4       0x50 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+ .debug_frame   0x00000444       0x38 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+ .debug_frame   0x0000047c       0x28 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+ .debug_frame   0x000004a4       0x28 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+ .debug_frame   0x000004cc       0x28 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+ .debug_frame   0x000004f4       0x70 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000564       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_frame   0x00000584       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+ .debug_frame   0x000005a4       0x34 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+ .debug_frame   0x000005d8       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+ .debug_frame   0x000005f8       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+ .debug_frame   0x00000618       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+ .debug_frame   0x00000638       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+ .debug_frame   0x00000658       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000684       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x000006b0       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_frame   0x000006dc       0x64 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000740      0x128 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .debug_frame   0x00000868       0x80 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x000008e8       0x80 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x00000968       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x00000994       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x000009c0       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x000009ec      0x160 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+ .debug_frame   0x00000b4c       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x00000b78       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x00000ba4       0x48 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x00000bec       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000c18       0x48 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000c60       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x00000c8c       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x00000cb8       0x48 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_frame   0x00000d00       0x80 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x00000d80       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x00000dac       0x48 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x00000df4       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00000e20       0x64 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x00000e84       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x00000eb0       0x48 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x00000ef8       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x00000f24       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_frame   0x00000f50       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000f7c       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x00000fa8       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x00000fd4       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000ff4       0x28 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_frame   0x0000101c       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000103c       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000105c       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_frame   0x0000107c       0x2c d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x000010a8       0x38 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x000010e0       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x00000000     0x20b8
+ *(.debug_str)
+ .debug_str     0x00000000       0xb3 obj/default/App/delay.o
+                                 0xec (size before relaxing)
+ .debug_str     0x000000b3      0x2aa obj/default/App/mculcd.o
+                                0x370 (size before relaxing)
+ .debug_str     0x0000035d       0x2f obj/default/App/rgblcd.o
+                                0x154 (size before relaxing)
+ .debug_str     0x0000038c       0x21 obj/default/main.o
+                                0x138 (size before relaxing)
+ .debug_str     0x000003ad       0xdf d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+                                0x168 (size before relaxing)
+ .debug_str     0x0000048c      0x175 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+                                0x2a9 (size before relaxing)
+ .debug_str     0x00000601       0x45 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+                                0x27b (size before relaxing)
+ .debug_str     0x00000646       0x20 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+                                0x238 (size before relaxing)
+ .debug_str     0x00000666       0x27 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+                                0x20e (size before relaxing)
+ .debug_str     0x0000068d        0xa d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+                                0x230 (size before relaxing)
+ .debug_str     0x00000000      0x1c1 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_thenan_df.o)
+ .debug_str     0x00000697       0x7c d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+                                0x15b (size before relaxing)
+ .debug_str     0x00000713       0x42 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+                                0x1a2 (size before relaxing)
+ .debug_str     0x00000755       0x17 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+                                0x17d (size before relaxing)
+ .debug_str     0x0000076c        0x7 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+                                0x224 (size before relaxing)
+ .debug_str     0x00000000      0x206 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+ .debug_str     0x00000000      0x1e4 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+ .debug_str     0x00000773       0x23 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+                                0x194 (size before relaxing)
+ .debug_str     0x00000796        0xa d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+                                0x194 (size before relaxing)
+ .debug_str     0x00000000      0x160 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clz.o)
+ .debug_str     0x000007a0       0x70 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                0x10e (size before relaxing)
+ .debug_str     0x00000810       0x70 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+                                0x156 (size before relaxing)
+ .debug_str     0x00000880       0x5e D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+                                 0xfc (size before relaxing)
+ .debug_str     0x000008de      0x2fc D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                0x49e (size before relaxing)
+ .debug_str     0x00000bda      0x21a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+                                0x4fb (size before relaxing)
+ .debug_str     0x00000df4       0xb2 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                0x35d (size before relaxing)
+ .debug_str     0x00000ea6       0xd1 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                                0x2f1 (size before relaxing)
+ .debug_str     0x00000f77       0x4a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                                0x24c (size before relaxing)
+ .debug_str     0x00000fc1       0x7f D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                0x2a1 (size before relaxing)
+ .debug_str     0x00001040       0x4a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                0x2a2 (size before relaxing)
+ .debug_str     0x0000108a      0x178 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+                                0x293 (size before relaxing)
+ .debug_str     0x00001202       0x5f D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                                0x237 (size before relaxing)
+ .debug_str     0x00001261       0x42 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                                0x124 (size before relaxing)
+ .debug_str     0x000012a3       0x44 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+                                0x1c4 (size before relaxing)
+ .debug_str     0x000012e7      0x119 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+                                0x2be (size before relaxing)
+ .debug_str     0x00001400       0x34 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                0x180 (size before relaxing)
+ .debug_str     0x00001434       0x48 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                 0x90 (size before relaxing)
+ .debug_str     0x0000147c       0x4c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                 0x8f (size before relaxing)
+ .debug_str     0x000014c8       0x14 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_errno.o)
+                                 0xf9 (size before relaxing)
+ .debug_str     0x000014dc       0x3f D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                                0x2a8 (size before relaxing)
+ .debug_str     0x0000151b       0xbd D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+                                0x1f7 (size before relaxing)
+ .debug_str     0x000015d8       0x4c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                0x1a1 (size before relaxing)
+ .debug_str     0x00001624       0x56 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                0x2cf (size before relaxing)
+ .debug_str     0x0000167a       0x3a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                0x150 (size before relaxing)
+ .debug_str     0x000016b4       0x17 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                 0xff (size before relaxing)
+ .debug_str     0x000016cb       0x29 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+                                0x204 (size before relaxing)
+ .debug_str     0x000016f4       0x28 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                0x198 (size before relaxing)
+ .debug_str     0x0000171c       0x4a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+                                0x20b (size before relaxing)
+ .debug_str     0x00001766       0x3b D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                                0x115 (size before relaxing)
+ .debug_str     0x000017a1       0x9b D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+                                0x194 (size before relaxing)
+ .debug_str     0x0000183c       0x24 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                0x1a5 (size before relaxing)
+ .debug_str     0x00001860       0x26 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+                                0x1b3 (size before relaxing)
+ .debug_str     0x00001886       0x30 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                0x1d5 (size before relaxing)
+ .debug_str     0x000018b6      0x15c d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                                0x20f (size before relaxing)
+ .debug_str     0x00001a12      0x34b d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                                0x52f (size before relaxing)
+ .debug_str     0x00001d5d       0xd4 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                                0x526 (size before relaxing)
+ .debug_str     0x00001e31       0x3d d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                                0x16f (size before relaxing)
+ .debug_str     0x00001e6e       0xca d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                                0x176 (size before relaxing)
+ .debug_str     0x00001f38       0x69 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                                0x126 (size before relaxing)
+ .debug_str     0x00001fa1       0x4f d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                                0x189 (size before relaxing)
+ .debug_str     0x00001ff0       0x3d d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                                0x573 (size before relaxing)
+ .debug_str     0x0000202d       0x61 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                                0x551 (size before relaxing)
+ .debug_str     0x0000208e       0x2a D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+                                0x10a (size before relaxing)
+
+.debug_loc      0x00000000     0x32be
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x58 obj/default/App/delay.o
+ .debug_loc     0x00000058      0x4a5 obj/default/App/mculcd.o
+ .debug_loc     0x000004fd       0x58 obj/default/App/rgblcd.o
+ .debug_loc     0x00000555       0x2c obj/default/main.o
+ .debug_loc     0x00000581       0x48 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fixunsdfsi.o)
+ .debug_loc     0x000005c9      0x7a1 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+ .debug_loc     0x00000d6a      0x3ba d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+ .debug_loc     0x00001124       0x70 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ge_df.o)
+ .debug_loc     0x00001194       0xd3 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+ .debug_loc     0x00001267       0xce d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_df_to_si.o)
+ .debug_loc     0x00001335      0x338 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x0000166d      0x15d d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_loc     0x000017ca      0x19a d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+ .debug_loc     0x00001964      0x2ae d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+ .debug_loc     0x00001c12      0x179 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_unpack_df.o)
+ .debug_loc     0x00001d8b       0x7c d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_fpcmp_parts_df.o)
+ .debug_loc     0x00001e07       0xc4 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_lshrdi3.o)
+ .debug_loc     0x00001ecb       0xc4 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_ashldi3.o)
+ .debug_loc     0x00001f8f       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x00001fbb       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_loc     0x00001fe7       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_loc     0x00002013       0x84 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x00002097      0x1b9 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .debug_loc     0x00002250       0xb0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_loc     0x00002300       0xb0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_loc     0x000023b0       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_loc     0x000023dc       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_loc     0x00002408       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x00002434      0x210 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(epcs_commands.o)
+ .debug_loc     0x00002644       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_loc     0x00002670       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_loc     0x0000269c       0x58 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_loc     0x000026f4       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_loc     0x00002720       0x58 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x00002778       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_loc     0x000027a4       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_loc     0x000027d0       0x58 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_loc     0x00002828       0xb0 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x000028d8       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x00002904       0x58 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_loc     0x0000295c       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x00002988       0x84 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_loc     0x00002a0c       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_loc     0x00002a38       0x58 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_loc     0x00002a90       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_loc     0x00002abc       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_loc     0x00002ae8       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x00002b14       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_loc     0x00002b40       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_loc     0x00002b6c       0x2c d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_loc     0x00002b98       0x3e d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_loc     0x00002bd6      0x103 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x00002cd9      0x1f2 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x00002ecb       0x52 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_loc     0x00002f1d      0x194 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x000030b1      0x1e1 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x00003292       0x2c D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x50
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x20 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x00000020       0x30 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x04000000                __alt_data_end = 0x4000000
+                0x04000000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x0200b3e4                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x0200b3e4                PROVIDE (__alt_heap_start, end)
+                0x04000000                PROVIDE (__alt_heap_limit, 0x4000000)
+OUTPUT(colorbar.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000      0x248
+ .debug_ranges  0x00000000       0x38 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_addsub_df.o)
+ .debug_ranges  0x00000038       0x78 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_mul_df.o)
+ .debug_ranges  0x000000b0       0x30 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_si_to_df.o)
+ .debug_ranges  0x000000e0       0x30 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_ranges  0x00000110       0x28 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_clzsi2.o)
+ .debug_ranges  0x00000138       0x18 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_pack_df.o)
+ .debug_ranges  0x00000150       0x30 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_ranges  0x00000180       0x18 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x00000198       0x30 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_ranges  0x000001c8       0x28 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x000001f0       0x10 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000200       0x30 D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000230       0x18 d:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)

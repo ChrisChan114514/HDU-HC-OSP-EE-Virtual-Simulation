@@ -1,0 +1,393 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+# Date created = 09:10:49  November 27, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		lcd_all_colorbar_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+set_location_assignment PIN_E1 -to sys_clk
+set_location_assignment PIN_M1 -to sys_rst_n
+
+set_location_assignment PIN_H1 -to epcs_dclk
+set_location_assignment PIN_D2 -to epcs_sce
+set_location_assignment PIN_C1 -to epcs_sdo
+set_location_assignment PIN_H2 -to epcs_data0
+
+set_location_assignment PIN_F11 -to sdram_addr[0]
+set_location_assignment PIN_E11 -to sdram_addr[1]
+set_location_assignment PIN_D14 -to sdram_addr[2]
+set_location_assignment PIN_C14 -to sdram_addr[3]
+set_location_assignment PIN_A14 -to sdram_addr[4]
+set_location_assignment PIN_A15 -to sdram_addr[5]
+set_location_assignment PIN_B16 -to sdram_addr[6]
+set_location_assignment PIN_C15 -to sdram_addr[7]
+set_location_assignment PIN_C16 -to sdram_addr[8]
+set_location_assignment PIN_D15 -to sdram_addr[9]
+set_location_assignment PIN_F14 -to sdram_addr[10]
+set_location_assignment PIN_D16 -to sdram_addr[11]
+set_location_assignment PIN_F15 -to sdram_addr[12]
+set_location_assignment PIN_G11 -to sdram_ba[0]
+set_location_assignment PIN_F13 -to sdram_ba[1]
+set_location_assignment PIN_J12 -to sdram_cas_n
+set_location_assignment PIN_F16 -to sdram_cke
+set_location_assignment PIN_B14 -to sdram_clk
+set_location_assignment PIN_K10 -to sdram_cs_n
+set_location_assignment PIN_J14 -to sdram_dqm[0]
+set_location_assignment PIN_G15 -to sdram_dqm[1]
+set_location_assignment PIN_P14 -to sdram_dq[0]
+set_location_assignment PIN_M12 -to sdram_dq[1]
+set_location_assignment PIN_N14 -to sdram_dq[2]
+set_location_assignment PIN_L12 -to sdram_dq[3]
+set_location_assignment PIN_L13 -to sdram_dq[4]
+set_location_assignment PIN_L14 -to sdram_dq[5]
+set_location_assignment PIN_L11 -to sdram_dq[6]
+set_location_assignment PIN_K12 -to sdram_dq[7]
+set_location_assignment PIN_G16 -to sdram_dq[8]
+set_location_assignment PIN_J11 -to sdram_dq[9]
+set_location_assignment PIN_J16 -to sdram_dq[10]
+set_location_assignment PIN_J15 -to sdram_dq[11]
+set_location_assignment PIN_K16 -to sdram_dq[12]
+set_location_assignment PIN_K15 -to sdram_dq[13]
+set_location_assignment PIN_L16 -to sdram_dq[14]
+set_location_assignment PIN_L15 -to sdram_dq[15]
+set_location_assignment PIN_K11 -to sdram_ras_n
+set_location_assignment PIN_J13 -to sdram_we_n
+
+
+
+
+#TFT-LCD
+set_location_assignment PIN_R1 -to lcd_bl
+set_location_assignment PIN_T2 -to lcd_de_cs
+set_location_assignment PIN_T3 -to lcd_hs_wr
+set_location_assignment PIN_P3 -to lcd_vs_rs
+set_location_assignment PIN_R3 -to lcd_clk_rd
+set_location_assignment PIN_L1 -to lcd_rst
+set_location_assignment PIN_R9 -to lcd_data[15]
+set_location_assignment PIN_T10 -to lcd_data[14]
+set_location_assignment PIN_R10 -to lcd_data[13]
+set_location_assignment PIN_T11 -to lcd_data[12]
+set_location_assignment PIN_R11 -to lcd_data[11]
+set_location_assignment PIN_R6 -to lcd_data[10]
+set_location_assignment PIN_T7 -to lcd_data[9]
+set_location_assignment PIN_R7 -to lcd_data[8]
+set_location_assignment PIN_T8 -to lcd_data[7]
+set_location_assignment PIN_R8 -to lcd_data[6]
+set_location_assignment PIN_T9 -to lcd_data[5]
+set_location_assignment PIN_T4 -to lcd_data[4]
+set_location_assignment PIN_R4 -to lcd_data[3]
+set_location_assignment PIN_T5 -to lcd_data[2]
+set_location_assignment PIN_R5 -to lcd_data[1]
+set_location_assignment PIN_T6 -to lcd_data[0]
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE10F17C8
+set_global_assignment -name TOP_LEVEL_ENTITY Nios_II_colorbar
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:10:49  NOVEMBER 27, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 256
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_DATA0_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_DATA1_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_FLASH_NCE_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_DCLK_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name SLD_NODE_CREATOR_ID 110 -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_ENTITY_NAME sld_signaltap -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_clk -to "pll:u_pll|c0" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[0] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[1] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[2] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[3] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[12]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[4] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[13]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[5] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[14]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[6] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[15]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[7] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[16]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[8] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[17]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[9] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[18]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[10] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[19]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[11] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[12] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[20]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[13] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[21]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[14] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[22]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[15] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[23]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[16] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[24]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[17] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[25]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[18] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[19] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[20] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[21] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[22] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[23] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[24] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[25] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[26] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[27] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[28] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[29] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[12]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[30] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[13]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[31] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[14]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[32] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[15]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[33] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[16]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[34] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[17]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[35] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[18]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[36] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[19]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[37] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[38] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[20]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[39] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[21]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[40] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[22]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[41] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[23]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[42] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[24]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[43] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[25]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[44] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[45] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[46] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[47] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[48] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[49] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[50] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[51] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[52] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[53] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[54] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[55] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[56] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[57] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[58] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[59] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[60] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[61] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[62] -to "sdram_bridge_control:u_bridge_ctrl|bridge_read" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[0] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[1] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[2] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[3] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[12]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[4] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[13]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[5] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[14]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[6] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[15]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[7] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[16]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[8] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[17]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[9] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[18]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[10] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[19]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[11] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[12] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[20]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[13] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[21]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[14] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[22]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[15] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[23]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[16] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[24]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[17] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[25]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[18] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[19] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[20] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[21] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[22] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[23] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[24] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[25] -to "sdram_bridge_control:u_bridge_ctrl|address_rd[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[26] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[27] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[28] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[29] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[12]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[30] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[13]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[31] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[14]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[32] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[15]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[33] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[16]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[34] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[17]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[35] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[18]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[36] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[19]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[37] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[38] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[20]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[39] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[21]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[40] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[22]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[41] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[23]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[42] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[24]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[43] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[25]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[44] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[45] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[46] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[47] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[48] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[49] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[50] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[51] -to "sdram_bridge_control:u_bridge_ctrl|bridge_address[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[52] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[53] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[54] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[55] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[56] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[57] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[58] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[59] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[60] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[61] -to "sdram_bridge_control:u_bridge_ctrl|bridge_burstcount[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[62] -to "sdram_bridge_control:u_bridge_ctrl|bridge_read" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_RAM_BLOCK_TYPE=AUTO" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_INFO=805334528" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_POWER_UP_TRIGGER=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_SEGMENT_SIZE=1024" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ATTRIBUTE_MEM_MODE=OFF" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STATE_FLOW_USE_GENERATED=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STATE_BITS=11" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_BUFFER_FULL_STOP=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_CURRENT_RESOURCE_WIDTH=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_SAMPLE_DEPTH=1024" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_IN_ENABLED=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ADVANCED_TRIGGER_ENTITY=basic,1," -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL_PIPELINE=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ENABLE_ADVANCED_TRIGGER=0" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[63] -to "sdram_bridge_control:u_bridge_ctrl|bridge_readdatavalid" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[64] -to "sdram_bridge_control:u_bridge_ctrl|bridge_waitrequest" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[65] -to "sdram_bridge_control:u_bridge_ctrl|bridge_write" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[66] -to "sdram_bridge_control:u_bridge_ctrl|burst_start" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[63] -to "sdram_bridge_control:u_bridge_ctrl|bridge_readdatavalid" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[64] -to "sdram_bridge_control:u_bridge_ctrl|bridge_waitrequest" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[65] -to "sdram_bridge_control:u_bridge_ctrl|bridge_write" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[66] -to "sdram_bridge_control:u_bridge_ctrl|burst_start" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[67] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[68] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[69] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[70] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[71] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[72] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[73] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[74] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[75] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[76] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[77] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[78] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[79] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[80] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[12]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[81] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[13]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[82] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[14]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[83] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[15]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[84] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[85] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[86] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[87] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[88] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[89] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[90] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[91] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[92] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[93] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[94] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[95] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[96] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[97] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[98] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[99] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[100] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[101] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[102] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[103] -to "sdram_bridge_control:u_bridge_ctrl|step" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[104] -to "sdram_bridge_control:u_bridge_ctrl|step_1" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[67] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[68] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[69] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[70] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[71] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[72] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[73] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[74] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[75] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[76] -to "sdram_bridge_control:u_bridge_ctrl|cnt_burst[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[77] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[78] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[79] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[80] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[12]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[81] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[13]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[82] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[14]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[83] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[15]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[84] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[85] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[86] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[87] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[88] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[89] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[90] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[91] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[92] -to "sdram_bridge_control:u_bridge_ctrl|lcd_id[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[93] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[94] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[95] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[96] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[97] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[98] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[99] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[100] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[101] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[102] -to "sdram_bridge_control:u_bridge_ctrl|source_fifo_wrusedw[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[103] -to "sdram_bridge_control:u_bridge_ctrl|step" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[104] -to "sdram_bridge_control:u_bridge_ctrl|step_1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_DATA_BITS=105" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_BITS=105" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_INVERSION_MASK_LENGTH=339" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_CRC_LOWORD=50077" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_CRC_HIWORD=53390" -section_id auto_signaltap_0
+set_global_assignment -name VERILOG_FILE ../rtl/Nios_II_colorbar.v
+set_global_assignment -name SDC_FILE qsys_Nios_II_colorbar.out.sdc
+set_global_assignment -name VERILOG_FILE ../rtl/LCD/rlcd_driver.v
+set_global_assignment -name VERILOG_FILE ../rtl/LCD/mlcd_driver.v
+set_global_assignment -name VERILOG_FILE ../rtl/LCD/lcd_top.v
+set_global_assignment -name VERILOG_FILE ../rtl/LCD/lcd_signal_sel.v
+set_global_assignment -name VERILOG_FILE ../rtl/LCD/clk_div.v
+set_global_assignment -name QIP_FILE ../qsys/hardware/synthesis/qsys.qip
+set_global_assignment -name QIP_FILE ipcore/pll.qip
+set_global_assignment -name VERILOG_FILE ../rtl/sdram_bridge_control.v
+set_global_assignment -name QIP_FILE ipcore/fifo.qip
+set_global_assignment -name CDF_FILE Chain1.cdf
+set_global_assignment -name SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp

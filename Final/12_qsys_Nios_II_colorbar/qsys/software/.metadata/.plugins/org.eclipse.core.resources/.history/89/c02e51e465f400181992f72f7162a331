@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include "system.h"
+#include "io.h"
+#include "alt_types.h"
+#include "altera_avalon_pio_regs.h"
+#include "sys/alt_irq.h"
+#include "unistd.h"
+#include <string.h>
+#include "mculcd.h"
+
+extern _lcd_dev lcddev;	//管理LCD重要参数
+_lcd_gui lcdgui;
+
+//SDRAM显存的地址
+alt_u16 *ram_cam = (alt_u16 *)(SDRAM_BASE + SDRAM_SPAN - 2049000);
+
+int main()
+{
+    int i,j;
+    MY_LCD_Init();              //LCD初始化
+    lcdgui.width = lcddev.height;
+    lcdgui.height = lcddev.width;
+//向ram中写数据，当ram写完以后，ram的地址已经变为(SDRAM_BASE+0x10000+200)
+         for(i=0;i<lcdgui.width;i++){
+        	 for(j=0;j<lcdgui.height;j++){
+        	 if(j<lcdgui.height/5)
+        		 *(ram_cam++) = 0xf800;
+
+        	 else if(j<(lcdgui.height/5*2))
+        		 *(ram_cam++) = 0xffff;
+
+        	 else if(j<(lcdgui.height/5*3))
+        		 *(ram_cam++) = 0x0;
+
+        	 else if(j<(lcdgui.height/5*4))
+        		 *(ram_cam++) = 0x07e0;
+
+        	 else
+        		 *(ram_cam++) = 0x001f;
+
+             }
+        	 alt_dcache_flush_all();
+         }
+         printf("Hello from NiosII!\n");
+
+return 0;
+}
+

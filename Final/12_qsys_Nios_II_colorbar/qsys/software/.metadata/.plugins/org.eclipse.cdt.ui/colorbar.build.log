@@ -1,0 +1,11 @@
+
+**** Build of configuration Nios II for project colorbar ****
+
+make all 
+/usr/bin/sh: line 0: cd: D:/lcd_all_colorbar/qsys/hardware/: No such file or directory
+Info: Building D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/
+make --no-print-directory -C D:/project/qsys_Nios_II_colorbar/qsys/software/colorbar_bsp/
+[BSP build complete]
+[colorbar build complete]
+
+**** Build Finished ****
